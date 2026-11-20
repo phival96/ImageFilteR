@@ -23,6 +23,14 @@ Save the filtered images into a "results" folder
 
 The package uses the "magick" package to read and save images
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/phival96/ImageFilteR}
+  \item Report bugs at \url{https://github.com/phival96/ImageFilteR/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Philipp Valina Allo \email{philipp.valina.allo@ki.se}
 

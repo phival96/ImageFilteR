@@ -27,6 +27,7 @@
 #' Then the selected filter modifies the individual color channels.
 #' The modified values are converted back into raw format.
 #'
+#' @export
 
 #Grey Filter
 grey_filter <- function(pixel) {

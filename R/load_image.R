@@ -17,7 +17,7 @@
 #' Then the first element of the image object is extracted
 #' The bitmap is assigned to an object
 #'
-#'
+#' @export
 load_image <- function(path) {
   image <- magick::image_read(path)
   bitmap <- image[[1]]

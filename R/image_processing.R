@@ -43,8 +43,8 @@
 #' Then goes through the image list and saves each image using the corresponding filename
 #'
 #' Required package: magick
-
-
+#'
+#' @export
 #Filter function
 filter_bitmap <- function(bitmap, filter_function) {
   for (x in 1:dim(bitmap)[2]) {

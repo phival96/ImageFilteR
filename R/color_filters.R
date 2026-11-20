@@ -28,7 +28,6 @@
 #' The modified values are converted back into raw format.
 #'
 #' @export
-
 #Grey Filter
 grey_filter <- function(pixel) {
   rgb <- as.integer(pixel)
@@ -39,18 +38,21 @@ grey_filter <- function(pixel) {
   return(as.raw(c(grey, grey, grey)))
 }
 
+#' @export
 #Red Filter
 red_filter <- function(pixel) {
   rgb <- as.integer(pixel)
   as.raw(c(rgb[1], 0, 0))
 }
 
+#' @export
 #Green Filter
 green_filter <- function(pixel) {
   rgb <- as.integer(pixel)
   as.raw(c(0, rgb[2], 0))
 }
 
+#' @export
 #Blue Filter
 blue_filter <- function(pixel) {
   rgb <- as.integer(pixel)

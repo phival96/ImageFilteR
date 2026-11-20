@@ -54,6 +54,7 @@ filter_bitmap <- function(bitmap, filter_function) {
   return(bitmap)
 }
 
+#' @export
 #Cutoff Filter
 cutoff_filter <- function(pixel, cutoff = 127) {
   rgb <- as.integer(pixel)
@@ -67,6 +68,7 @@ cutoff_filter <- function(pixel, cutoff = 127) {
     return(as.raw(c(0, 0, 0)))}
 }
 
+#' @export
 # Save the image
 save_images <- function(images, names) {
   if (!dir.exists("results")) {
